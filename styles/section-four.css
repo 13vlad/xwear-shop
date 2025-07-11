@@ -1,0 +1,128 @@
+.four {
+    min-height: 895px;
+    background: linear-gradient(to right, #BCBFC7, #D5D7DC);
+    margin-top: -220px;
+    position: relative;
+}
+
+.four__logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: min(100%, 1750px);
+    height: min(100%, 730px);
+}
+
+.store {
+    position: relative;
+    z-index: 1;
+    padding-top: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.store__info {
+    width: min(100%, 812px);
+}
+
+.store__info-tittle {
+    font-weight: var(--font-bold);
+    font-size: clamp(1.1rem, 5vw, 2.3rem);
+    line-height: clamp(1.8rem, 5vw, 3rem);
+}
+
+.store__info-text {
+    font-weight: var(--font-small);
+    font-size: 1rem;
+    line-height: clamp(1.2rem, 3vw, 1.9rem);
+    color: var(--color-dark-gray);
+    padding-top: 20px;
+
+}
+
+.store__delivery {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    /*width: 415px;*/
+    /*height: 426px;*/
+    background: var(--color-whith);
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.store__delivery-clause {
+    display: flex;
+    column-gap: 28px;
+    width: 100%;
+}
+
+.store__delivery-clause-text h3 {
+    font-weight: var(--font-bold);
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.store__delivery-clause-text span {
+    font-weight: var(--font-small);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.store__btn {
+    background-color: black;
+    border-radius: 50%;
+    max-width: 85px;
+    min-width: 85px;
+    max-height: 85px;
+    min-height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+}
+
+.store__btn:hover {
+    background-color: var(--color-hover-btn);
+}
+
+@media (max-width: 1024px) {
+    .store__btn {
+        display: none;
+    }
+
+    .store {
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .store__delivery {
+        flex-direction: row;
+        flex: 0 0 100%;
+    }
+
+    .store__info {
+        flex: 0 0 100%;
+    }
+
+    .store__delivery-clause {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .store__delivery {
+        flex-direction: column;
+        flex: 0 0 100%;
+    }
+
+    .store__delivery-clause {
+        flex-direction: row;
+        justify-content: center;
+    }
+}

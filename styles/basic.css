@@ -1,0 +1,76 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, caption,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    color: inherit;
+    vertical-align: baseline;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.container-xl {
+    max-width: 1541px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.container-l {
+    max-width: 1362px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.distance {
+    margin: 80px auto;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 12px;
+    }
+
+    .distance {
+        margin: 60px auto;
+    }
+}
+
+
+:root {
+    --font-bold: 900;
+    --font-medium: 700;
+    --font-small: 400;
+    --font-button: 800;
+    --color-black: #000;
+    --color-dark-gray: #303030;
+    --color-light-gray: #8C8F96;
+    --color-hover-btn: #00BDFF;
+    --color-blue: #49D0FF;
+    --color-whith: #ffff;
+}

@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58e5669a-1127-41bc-9032-dc72c951b5b5" name="Changes" comment="" />
+    <list default="true" id="58e5669a-1127-41bc-9032-dc72c951b5b5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productcard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/productcard.html" beforeDir="false" afterPath="$PROJECT_DIR$/productcard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +90,7 @@
       <workItem from="1752225192891" duration="5002000" />
       <workItem from="1752251113717" duration="3471000" />
       <workItem from="1752254596687" duration="867000" />
-      <workItem from="1752255600531" duration="740000" />
+      <workItem from="1752255600531" duration="2691000" />
     </task>
     <servers />
   </component>

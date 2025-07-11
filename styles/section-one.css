@@ -1,0 +1,116 @@
+/*.main .one{*/
+/*    min-height: 760px;*/
+/*}*/
+
+.one__logo {
+    /*height: 631px;*/
+    width: min(100%, 1541px);
+    margin-top: 50px;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.one__images {
+    object-fit: cover;
+    /*background-repeat: no-repeat;*/
+    /*transform: scaleX(-1);*/
+    object-position: top;
+    width: 100%;
+    /*width: min(100%, 1541px);*/
+    height: clamp(340px, 35vw, 631px);
+    display: block;
+    border-radius: 7px;
+}
+
+.one__welcome {
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    row-gap: clamp(7px, 1vw, 19px);
+    max-width: 571px;
+}
+
+.title {
+    font-weight: var(--font-bold);
+}
+
+.one__title {
+    font-size: clamp(1.1rem, 3vw, 3.1rem);
+    color: var(--color-black);
+    line-height: clamp(1.5rem, 4vw, 3.9rem);
+}
+
+.text {
+    font-weight: var(--font-small);
+    color: var(--color-black);
+}
+
+.one__text {
+    font-size: clamp(0.75rem, 4vw, 1.18rem);
+    line-height: clamp(1.1rem, 4vw, 2rem);
+}
+
+.button {
+    font-weight: 800;
+    font-size: 12px;
+    color: var(--color-whith);
+    border-radius: 5px;
+    background-color: var(--color-black);
+    padding: 23px 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 23px;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.button:hover {
+    background-color: var(--color-hover-btn);
+}
+
+.one__button {
+    width: clamp(204px, 13vw, 252px);
+    /*max-width: 252px;*/
+    /*width: min(100%, 252px);*/
+    height: 100%;
+    max-height: 66px;
+}
+
+.one__arrows {
+    position: absolute;
+    top: 80%;
+    left: 8%;
+    display: flex;
+    column-gap: 15px;
+}
+
+.arrows {
+    /*min-height: 54px;*/
+    /*min-width: 54px;*/
+    /*max-height: 67px;*/
+    /*max-width: 67px;*/
+    width: clamp(54px, 8vw, 67px);
+    height: clamp(54px, 8vw, 67px);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one__arrows-one {
+    background-color: var(--color-whith);
+}
+
+.one__arrows-two {
+    background-color: #F0F2F6;
+    transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+    .one__logo {
+        margin-top: 25px;
+    }
+}

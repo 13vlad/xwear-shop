@@ -1,0 +1,128 @@
+.footer {
+    background-color: var(--color-black);
+    min-height: 371px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*column-gap: 212px;*/
+    padding-top: 45px;
+    padding-bottom: 50px;
+    row-gap: 20px;
+}
+
+.information__catalog {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.information__catalog-tittle {
+    font-weight: var(--font-bold);
+    color: var(--color-whith);
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.information__catalog-link {
+    font-weight: var(--font-small);
+    font-size: 15px;
+    color: #DCDCE0;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.information__catalog-logo {
+    padding-top: 48px;
+    width: 99px;
+    /*height: 41px;*/
+}
+
+.information__catalog-logo-website {
+    padding-top: 28px;
+}
+
+.information__catalog-link-mobile {
+    color: var(--color-whith);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-decoration: none;
+}
+
+.information__catalog-messenger {
+    display: flex;
+    flex-direction: column;
+}
+
+.information__catalog-messenger-span {
+    font-weight: 800;
+    font-size: 12px;
+    color: var(--color-whith);
+    line-height: 28px;
+}
+
+.information__catalog-messenger-icons {
+    display: flex;
+    column-gap: 10px;
+}
+
+.information__catalog-email {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--color-dark-gray);
+    padding-bottom: 5px;
+}
+
+.information__catalog-email input {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+    background: transparent;
+    border: none;
+    width: 100%;
+
+}
+
+.information__catalog-email button {
+    background-color: var(--color-whith);
+    border-radius: 50%;
+    max-width: 29px;
+    min-width: 29px;
+    max-height: 29px;
+    min-height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.information__catalog-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #707076;
+}
+
+.information__catalog-personal {
+    padding-top: 51px;
+    display: flex;
+    flex-direction: column;
+}
+
+.information__catalog-personal a {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 18px;
+    color: #707076;
+    text-transform: uppercase;
+}
+
+/*@media (max-width: 768px) {*/
+/*    .information__catalog-wrap{*/
+/*        flex-wrap: wrap;*/
+/*    }*/
+/*}*/
