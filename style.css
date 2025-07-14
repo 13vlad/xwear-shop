@@ -7,9 +7,9 @@
 @import "styles/section-five.css";
 @import "styles/footer.css";
 
-
-@import "styles/productcard.css";
-
+/*productcard*/
+@import "styles/section-one-product.css";
+@import "styles/section-two-product.css";
 
 
 

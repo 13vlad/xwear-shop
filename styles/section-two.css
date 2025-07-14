@@ -1,5 +1,5 @@
 .catalog {
-    min-height: 521px;
+    /*min-height: 521px;*/
 }
 
 .more {
@@ -43,12 +43,14 @@
 .catalog_product {
     width: min(100%, 318px);
     height: min(100%, 369px);
+    display: flex;
+    flex-direction: column;
 }
 
 .catalog-img {
     width: 100%;
     object-fit: contain;
-    /*height: 100%;*/
+    height: 100%;
 }
 
 .catalog-link {
