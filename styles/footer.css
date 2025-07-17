@@ -114,7 +114,7 @@
     flex-direction: column;
 }
 
-.information__catalog-personal a {
+.information__catalog-personal-link {
     font-weight: 600;
     font-size: 11px;
     line-height: 18px;
@@ -122,8 +122,8 @@
     text-transform: uppercase;
 }
 
-/*@media (max-width: 768px) {*/
-/*    .information__catalog-wrap{*/
-/*        flex-wrap: wrap;*/
-/*    }*/
-/*}*/
+@media(max-width: 768px){
+    .information{
+        display: none;
+    }
+}
