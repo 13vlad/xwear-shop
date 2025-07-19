@@ -71,7 +71,35 @@
     font-size: 13px;
     color: var(--color-light-gray);
 }
+/*dssdf*/
+.header__inner-wrapper{
+    position: relative;
+    width: min(100%, 960px);
+    margin-left: 50px;
+}
 
+.header__inner-wrapper-input{
+    width: min(100%, 960px);
+    border-radius: 900px;
+    border: 1px solid var(--color-dark-gray);
+    background: none;
+    padding-left: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.header__inner-wrapper-input:focus{
+    color: white;
+}
+
+.header__inner-wrapper-icons{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+/*asdasfa*/
 @media (max-width: 1400px) {
     .header .header__inner .header__menu {
         display: none;
