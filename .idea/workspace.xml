@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58e5669a-1127-41bc-9032-dc72c951b5b5" name="Changes" comment="section footer-mobile">
+    <list default="true" id="58e5669a-1127-41bc-9032-dc72c951b5b5" name="Changes" comment=" catalog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productcard.html" beforeDir="false" afterPath="$PROJECT_DIR$/productcard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/footer-mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/footer-mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +98,8 @@
       <workItem from="1752492368289" duration="11889000" />
       <workItem from="1752749788497" duration="9927000" />
       <workItem from="1752765743876" duration="3484000" />
-      <workItem from="1752918513092" duration="2995000" />
+      <workItem from="1752918513092" duration="3158000" />
+      <workItem from="1753169698102" duration="5817000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -140,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752769146373</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=" catalog">
+      <option name="closed" value="true" />
+      <created>1752921738720</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752921738720</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +184,7 @@
     <MESSAGE value="section two_product" />
     <MESSAGE value="section three_product" />
     <MESSAGE value="section footer-mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="section footer-mobile" />
+    <MESSAGE value=" catalog" />
+    <option name="LAST_COMMIT_MESSAGE" value=" catalog" />
   </component>
 </project>
