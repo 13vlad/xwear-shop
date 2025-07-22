@@ -40,9 +40,9 @@
     rotate: -90deg;
 }
 
-.sidebar__header-nav{
-    padding-top: 20px;
-}
+/*.sidebar__header-nav{*/
+/*    padding-top: 20px;*/
+/*}*/
 
 .sidebar__header-nav-item{
     padding-top: 20px;
@@ -61,8 +61,9 @@
 
 
 
-/*brand*/
-.sidebar__brand-options{
+/*brand,model*/
+.sidebar__brand-options,
+.sidebar__model-options{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -71,15 +72,91 @@
     overflow-y: auto;
 }
 
-.sidebar__brand-options label{
+.sidebar__brand-options-label,
+.sidebar__model-options-label{
+    display: flex;
+    align-items: center;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
+    color: #20282F;
+    cursor: pointer;
 }
 
-.sidebar__brand-options input{
+.sidebar__brand-options-label:hover{
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+ .sidebar__model-options-label:hover{
+    font-weight: 700;
+     transition: 0.3s;
+}
+
+.sidebar__brand-options-check,
+.sidebar__model-options-check{
     accent-color: #00bfff;
-    max-width: 23px;
+    min-height: 23px;
     max-height: 23px;
+    max-width: 23px;
+    min-width: 23px;
     margin-right: 10px;
+}
+
+/*color*/
+
+
+
+
+
+
+
+/*sidebar__button*/
+.sidebar__button{
+    width: min(100%, 318px);
+    padding: 13px 0 13px 0;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 5px;
+    border: 1px solid #E6E7EB;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.sidebar__button-img{
+    margin-right: 10px;
+}
+/*sidebar_images*/
+.sidebar__images{
+    width: min(100%, 318px);
+    height: min(100%,535px);
+    position: relative;
+}
+
+.sidebar__images-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sidebar__images-title{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    color: white;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 32px;
+}
+
+.sidebar__images-link{
+    color: #FFFFFF;
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 23px;
+    border-bottom: 2px solid white;
 }
