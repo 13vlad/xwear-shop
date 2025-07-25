@@ -116,4 +116,7 @@
     .header .header_info .header-icons {
         column-gap: 22px;
     }
+    .header__inner-wrapper{
+        display: none;
+    }
 }

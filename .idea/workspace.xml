@@ -7,6 +7,7 @@
     <list default="true" id="58e5669a-1127-41bc-9032-dc72c951b5b5" name="Changes" comment=" catalog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/section-two-catalog.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/section-two-catalog.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +99,8 @@
       <workItem from="1752749788497" duration="9927000" />
       <workItem from="1752765743876" duration="3484000" />
       <workItem from="1752918513092" duration="3158000" />
-      <workItem from="1753169698102" duration="9462000" />
+      <workItem from="1753169698102" duration="9772000" />
+      <workItem from="1753443773533" duration="5303000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -156,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753175577561</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" catalog">
+      <option name="closed" value="true" />
+      <created>1753199788418</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1753199788418</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
