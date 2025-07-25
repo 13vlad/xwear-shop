@@ -3,7 +3,8 @@
 }
 
 .two__catalog-menu {
-
+    display: flex;
+    gap: 30px;
 }
 
 .sidebar {
@@ -276,6 +277,24 @@
     .sidebar__model,
     .sidebar__color {
         padding: 25px 10px 25px 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .two__catalog-menu{
+        flex-direction: column;
+    }
+    .sidebar__size,
+    .sidebar__brand,
+    .sidebar__model,
+    .sidebar__color,
+    .sidebar__button,
+    .sidebar__images{
+        display: none;
+    }
+    .sidebar{
+        width: 100%;
+        justify-content: space-between;
     }
 }
 

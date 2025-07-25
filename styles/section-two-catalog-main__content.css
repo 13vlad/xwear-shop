@@ -1,3 +1,89 @@
-.main__content{
+.main__content {
+    width: min(100%, 1015px);
+}
+
+.main__content-title {
 
 }
+
+.main__content-title-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__content-title-text-one {
+    font-weight: 900;
+    font-size: clamp(1.2rem, 4vw, 2rem);
+    line-height: 42px;
+}
+
+.main__content-title-text-two {
+    display: block;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 38px;
+    color: #6D6D6D;
+}
+
+.main__content-title-text-two::after {
+    content: ">";
+    margin-left: 15px;
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.main__content-title-quantity {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: #8C8F96;
+}
+
+.main__content-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 30px;
+}
+
+.main__content-grid-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__content-grid-card-img {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+
+.main__content-grid-card-name {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+}
+
+.main__content-grid-card-price {
+    font-weight: var(--font-small);
+    font-size: 14px;
+    line-height: 20px;
+    color: #3C3C3C;
+}
+
+.main__content-images{
+    width: min(100%, 600px);
+}
+
+@media (max-width: 768px) {
+    .main__content-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+
+
+
+
