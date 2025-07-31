@@ -1,9 +1,10 @@
 .main__content {
+    grid-area: content;
     width: min(100%, 1015px);
 }
 
 .main__content-title {
-
+    grid-area: title;
 }
 
 .main__content-title-text {
