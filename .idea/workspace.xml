@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="58e5669a-1127-41bc-9032-dc72c951b5b5" name="Changes" comment=" catalog grid">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/section-two-product.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/section-two-product.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +101,7 @@
       <workItem from="1753462921828" duration="1213000" />
       <workItem from="1753804578478" duration="71000" />
       <workItem from="1753986623505" duration="3880000" />
-      <workItem from="1754043642803" duration="1526000" />
+      <workItem from="1754043642803" duration="3204000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
