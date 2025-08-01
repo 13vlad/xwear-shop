@@ -6,7 +6,7 @@
 .two__product-page {
     display: grid;
     grid-template-columns:repeat(2, 1fr);
-    grid-template-rows:85px 415px;
+    grid-template-rows:85px 450px;
     grid-template-areas:
         "images name"
         "images info";
