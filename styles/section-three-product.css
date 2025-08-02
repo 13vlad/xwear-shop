@@ -28,6 +28,7 @@
     border-bottom: 3px solid var(--color-blue);
 }
 
+/*three__product-article*/
 .three__product-article{
     margin: 45px 0 0 0;
     width: min(100%, 450px);
@@ -69,6 +70,13 @@
     color: var(--color-dark-gray);
     padding: 16px 0 60px 0;
 }
+
+
+
+
+/*three-product__payment*/
+
+
 
 
 @media (max-width: 768px) {
