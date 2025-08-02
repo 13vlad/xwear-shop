@@ -35,7 +35,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /*display: none;*/
+    display: none;
 }
 
 .three__product-article-list{
@@ -65,18 +65,62 @@
 }
 
 .three-product__shipping-text{
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     color: var(--color-dark-gray);
     padding: 16px 0 60px 0;
+}
+
+.three-product__shipping-desc{
+    font-weight: 700;
+    font-size: 20px;
 }
 
 
 
 
 /*three-product__payment*/
+.three-product__payment{
+    margin: 20px 0 0 0;
+    display: none;
+}
 
+.three-product__payment-title{
+    font-weight: 600;
+    font-size: 21px;
+    color: #121214;
+}
 
+.three-product__payment-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: var(--color-dark-gray);
+    padding: 10px 0 0 0;
+}
+
+.three-product__payment-desc{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    padding: 25px 0 15px 0;
+}
+
+.three-product__payment-icons{
+    margin: 15px 0 22px 0;
+    width: 255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.three-product__payment-icons-link{
+    width: 65px;
+    height: 45px;
+    border: 1px solid #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 @media (max-width: 768px) {
